@@ -1,0 +1,157 @@
+{
+  "id": "0007",
+  "slug": "kiem-tra-chuoi-doi-xung",
+  "title": "Kiểm tra chuỗi đối xứng (Palindrome)",
+  "description": "Một chuỗi được gọi là chuỗi đối xứng (Palindrome) nếu đọc từ trái sang phải hay từ phải sang trái đều giống nhau.\nCho chuỗi ký tự `s`. Trả về `True` nếu `s` là chuỗi đối xứng, ngược lại trả về `False`.\n\n### Ví dụ:\n- `s = \"radar\"` ➔ Kết quả: `True`\n- `s = \"python\"` ➔ Kết quả: `False`\n\n### Ràng buộc:\n- `0 <= len(s) <= 1000`",
+  "difficulty": "easy",
+  "tags": [
+    "chuỗi",
+    "cơ bản"
+  ],
+  "params": [
+    {
+      "name": "s",
+      "type": "str"
+    }
+  ],
+  "returnType": "bool",
+  "examples": [
+    {
+      "args": [
+        "radar"
+      ],
+      "output": true,
+      "explanation": "radar đọc ngược lại vẫn là radar"
+    },
+    {
+      "args": [
+        "python"
+      ],
+      "output": false,
+      "explanation": "python đọc ngược lại là nohtyp"
+    }
+  ],
+  "testCases": [
+    {
+      "args": [
+        "radar"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "python"
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        ""
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "a"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "level"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "noon"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "12321"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "12345"
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        "racecar"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "madam"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "hello"
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        "abba"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "abcba"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "abccba"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "abcde"
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        "kayak"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "rotator"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "step on no pets"
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        "top spot"
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        "A"
+      ],
+      "output": true
+    }
+  ],
+  "compare": "exact"
+}

@@ -1,0 +1,157 @@
+{
+  "id": "0006",
+  "slug": "dem-so-nguyen-am",
+  "title": "Đếm số nguyên âm",
+  "description": "Cho một chuỗi ký tự `s`. Hãy đếm tổng số nguyên âm tiếng Anh xuất hiện trong chuỗi (gồm các chữ cái `'a', 'e', 'i', 'o', 'u'`, không phân biệt chữ hoa hay chữ thường).\n\n### Ví dụ:\n- `s = \"Hello World\"` ➔ Kết quả: `3` (gồm 'e', 'o', 'o')\n- `s = \"Python\"` ➔ Kết quả: `1` (gồm 'o')\n\n### Ràng buộc:\n- `0 <= len(s) <= 1000`",
+  "difficulty": "easy",
+  "tags": [
+    "chuỗi",
+    "vòng lặp"
+  ],
+  "params": [
+    {
+      "name": "s",
+      "type": "str"
+    }
+  ],
+  "returnType": "int",
+  "examples": [
+    {
+      "args": [
+        "Hello World"
+      ],
+      "output": 3,
+      "explanation": "Có 3 nguyên âm: 'e', 'o', 'o'"
+    },
+    {
+      "args": [
+        "Python"
+      ],
+      "output": 1,
+      "explanation": "Có 1 nguyên âm: 'o'"
+    }
+  ],
+  "testCases": [
+    {
+      "args": [
+        "Hello World"
+      ],
+      "output": 3
+    },
+    {
+      "args": [
+        "Python"
+      ],
+      "output": 1
+    },
+    {
+      "args": [
+        ""
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        "aeiou"
+      ],
+      "output": 5
+    },
+    {
+      "args": [
+        "AEIOU"
+      ],
+      "output": 5
+    },
+    {
+      "args": [
+        "rhythm"
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        "bcdfg"
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        "Programming is fun"
+      ],
+      "output": 5
+    },
+    {
+      "args": [
+        "A quick brown fox"
+      ],
+      "output": 5
+    },
+    {
+      "args": [
+        "12345!@#"
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        "Beautiful"
+      ],
+      "output": 5
+    },
+    {
+      "args": [
+        "Education"
+      ],
+      "output": 5
+    },
+    {
+      "args": [
+        "QUEUE"
+      ],
+      "output": 4
+    },
+    {
+      "args": [
+        "sky"
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        "Algorithms and Data Structures"
+      ],
+      "output": 9
+    },
+    {
+      "args": [
+        "xyz"
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        "onomatopoeia"
+      ],
+      "output": 8
+    },
+    {
+      "args": [
+        "Ha Noi"
+      ],
+      "output": 3
+    },
+    {
+      "args": [
+        "Open Source"
+      ],
+      "output": 5
+    },
+    {
+      "args": [
+        "Test case number twenty"
+      ],
+      "output": 6
+    }
+  ],
+  "compare": "exact"
+}

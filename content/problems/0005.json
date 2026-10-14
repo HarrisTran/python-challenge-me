@@ -1,0 +1,157 @@
+{
+  "id": "0005",
+  "slug": "dao-nguoc-chuoi",
+  "title": "Đảo ngược chuỗi",
+  "description": "Cho một chuỗi ký tự `s`. Hãy trả về chuỗi đảo ngược của `s`.\n\n### Ví dụ:\n- `s = \"hello\"` ➔ Kết quả: `\"olleh\"`\n- `s = \"python\"` ➔ Kết quả: `\"nohtyp\"`\n\n### Ràng buộc:\n- `0 <= len(s) <= 1000`",
+  "difficulty": "easy",
+  "tags": [
+    "chuỗi",
+    "cơ bản"
+  ],
+  "params": [
+    {
+      "name": "s",
+      "type": "str"
+    }
+  ],
+  "returnType": "str",
+  "examples": [
+    {
+      "args": [
+        "hello"
+      ],
+      "output": "olleh",
+      "explanation": "Đảo ngược hello thành olleh"
+    },
+    {
+      "args": [
+        "python"
+      ],
+      "output": "nohtyp",
+      "explanation": "Đảo ngược python thành nohtyp"
+    }
+  ],
+  "testCases": [
+    {
+      "args": [
+        "hello"
+      ],
+      "output": "olleh"
+    },
+    {
+      "args": [
+        "python"
+      ],
+      "output": "nohtyp"
+    },
+    {
+      "args": [
+        ""
+      ],
+      "output": ""
+    },
+    {
+      "args": [
+        "a"
+      ],
+      "output": "a"
+    },
+    {
+      "args": [
+        "racecar"
+      ],
+      "output": "racecar"
+    },
+    {
+      "args": [
+        "12345"
+      ],
+      "output": "54321"
+    },
+    {
+      "args": [
+        "Hello World!"
+      ],
+      "output": "!dlroW olleH"
+    },
+    {
+      "args": [
+        "  spaces  "
+      ],
+      "output": "  secaps  "
+    },
+    {
+      "args": [
+        "ab"
+      ],
+      "output": "ba"
+    },
+    {
+      "args": [
+        "xyz"
+      ],
+      "output": "zyx"
+    },
+    {
+      "args": [
+        "vietnam"
+      ],
+      "output": "manteiv"
+    },
+    {
+      "args": [
+        "OpenAI"
+      ],
+      "output": "IAnepO"
+    },
+    {
+      "args": [
+        "LeetCode"
+      ],
+      "output": "edoCteeL"
+    },
+    {
+      "args": [
+        "A man, a plan"
+      ],
+      "output": "nalp a ,nam A"
+    },
+    {
+      "args": [
+        "special #@$"
+      ],
+      "output": "$@# laiceps"
+    },
+    {
+      "args": [
+        "k"
+      ],
+      "output": "k"
+    },
+    {
+      "args": [
+        "noon"
+      ],
+      "output": "noon"
+    },
+    {
+      "args": [
+        "abcdefghijklmnopqrstuvwxyz"
+      ],
+      "output": "zyxwvutsrqponmlkjihgfedcba"
+    },
+    {
+      "args": [
+        "---===---"
+      ],
+      "output": "---===---"
+    },
+    {
+      "args": [
+        "Python Challenge"
+      ],
+      "output": "egnellahC nohtyP"
+    }
+  ],
+  "compare": "exact"
+}

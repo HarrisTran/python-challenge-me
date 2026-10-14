@@ -1,0 +1,157 @@
+{
+  "id": "0004",
+  "slug": "tinh-giai-thua",
+  "title": "Tính giai thừa",
+  "description": "Cho số nguyên không âm `n`. Hãy tính và trả về giai thừa của `n` (ký hiệu là `n!`).\nBiết rằng:\n- `0! = 1`\n- `n! = 1 * 2 * 3 * ... * n` (với `n >= 1`)\n\n### Ví dụ:\n- `n = 0` ➔ Kết quả: `1`\n- `n = 5` ➔ Kết quả: `120`\n\n### Ràng buộc:\n- `0 <= n <= 20`",
+  "difficulty": "easy",
+  "tags": [
+    "vòng lặp",
+    "toán tử"
+  ],
+  "params": [
+    {
+      "name": "n",
+      "type": "int"
+    }
+  ],
+  "returnType": "int",
+  "examples": [
+    {
+      "args": [
+        0
+      ],
+      "output": 1,
+      "explanation": "0! = 1 theo quy ước"
+    },
+    {
+      "args": [
+        5
+      ],
+      "output": 120,
+      "explanation": "5! = 1 * 2 * 3 * 4 * 5 = 120"
+    }
+  ],
+  "testCases": [
+    {
+      "args": [
+        0
+      ],
+      "output": 1
+    },
+    {
+      "args": [
+        1
+      ],
+      "output": 1
+    },
+    {
+      "args": [
+        2
+      ],
+      "output": 2
+    },
+    {
+      "args": [
+        3
+      ],
+      "output": 6
+    },
+    {
+      "args": [
+        4
+      ],
+      "output": 24
+    },
+    {
+      "args": [
+        5
+      ],
+      "output": 120
+    },
+    {
+      "args": [
+        6
+      ],
+      "output": 720
+    },
+    {
+      "args": [
+        7
+      ],
+      "output": 5040
+    },
+    {
+      "args": [
+        8
+      ],
+      "output": 40320
+    },
+    {
+      "args": [
+        9
+      ],
+      "output": 362880
+    },
+    {
+      "args": [
+        10
+      ],
+      "output": 3628800
+    },
+    {
+      "args": [
+        11
+      ],
+      "output": 39916800
+    },
+    {
+      "args": [
+        12
+      ],
+      "output": 479001600
+    },
+    {
+      "args": [
+        13
+      ],
+      "output": 6227020800
+    },
+    {
+      "args": [
+        14
+      ],
+      "output": 87178291200
+    },
+    {
+      "args": [
+        15
+      ],
+      "output": 1307674368000
+    },
+    {
+      "args": [
+        16
+      ],
+      "output": 20922789888000
+    },
+    {
+      "args": [
+        17
+      ],
+      "output": 355687428096000
+    },
+    {
+      "args": [
+        18
+      ],
+      "output": 6402373705728000
+    },
+    {
+      "args": [
+        19
+      ],
+      "output": 121645100408832000
+    }
+  ],
+  "compare": "exact"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "0000",
+  "slug": "bai-tap-mau",
+  "title": "Bài tập mẫu",
+  "description": "Mô tả bài tập mẫu viết bằng Markdown.",
+  "difficulty": "easy",
+  "tags": ["cơ bản"],
+  "params": [
+    { "name": "n", "type": "int" }
+  ],
+  "returnType": "int",
+  "examples": [
+    { "args": [5], "output": 10, "explanation": "5 * 2 = 10" }
+  ],
+  "testCases": [
+    { "args": [5], "output": 10 }
+  ],
+  "compare": "exact"
+}

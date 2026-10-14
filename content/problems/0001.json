@@ -1,0 +1,183 @@
+{
+  "id": "0001",
+  "slug": "tinh-tong-hai-so",
+  "title": "Tính tổng hai số",
+  "description": "Cho hai số nguyên `a` và `b`. Hãy viết hàm trả về tổng của hai số đó.\n\n### Ví dụ:\n- `a = 3, b = 5` ➔ Kết quả: `8`\n- `a = -2, b = 2` ➔ Kết quả: `0`\n\n### Ràng buộc:\n- `-10^9 <= a, b <= 10^9`",
+  "difficulty": "easy",
+  "tags": [
+    "toán tử",
+    "cơ bản"
+  ],
+  "params": [
+    {
+      "name": "a",
+      "type": "int"
+    },
+    {
+      "name": "b",
+      "type": "int"
+    }
+  ],
+  "returnType": "int",
+  "examples": [
+    {
+      "args": [
+        3,
+        5
+      ],
+      "output": 8,
+      "explanation": "3 + 5 = 8"
+    },
+    {
+      "args": [
+        -2,
+        2
+      ],
+      "output": 0,
+      "explanation": "-2 + 2 = 0"
+    }
+  ],
+  "testCases": [
+    {
+      "args": [
+        3,
+        5
+      ],
+      "output": 8
+    },
+    {
+      "args": [
+        -2,
+        2
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        0,
+        0
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        10,
+        -5
+      ],
+      "output": 5
+    },
+    {
+      "args": [
+        -7,
+        -3
+      ],
+      "output": -10
+    },
+    {
+      "args": [
+        100,
+        200
+      ],
+      "output": 300
+    },
+    {
+      "args": [
+        999999,
+        1
+      ],
+      "output": 1000000
+    },
+    {
+      "args": [
+        -500000,
+        500000
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        42,
+        -42
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        1,
+        0
+      ],
+      "output": 1
+    },
+    {
+      "args": [
+        0,
+        -1
+      ],
+      "output": -1
+    },
+    {
+      "args": [
+        12345,
+        67890
+      ],
+      "output": 80235
+    },
+    {
+      "args": [
+        -9876,
+        5432
+      ],
+      "output": -4444
+    },
+    {
+      "args": [
+        1000000,
+        2000000
+      ],
+      "output": 3000000
+    },
+    {
+      "args": [
+        -1000000,
+        -2000000
+      ],
+      "output": -3000000
+    },
+    {
+      "args": [
+        77,
+        33
+      ],
+      "output": 110
+    },
+    {
+      "args": [
+        -15,
+        100
+      ],
+      "output": 85
+    },
+    {
+      "args": [
+        888,
+        -888
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        17,
+        23
+      ],
+      "output": 40
+    },
+    {
+      "args": [
+        -50,
+        -50
+      ],
+      "output": -100
+    }
+  ],
+  "compare": "exact"
+}

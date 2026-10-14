@@ -1,0 +1,255 @@
+{
+  "id": "0008",
+  "slug": "tinh-tong-danh-sach",
+  "title": "Tính tổng các phần tử trong danh sách",
+  "description": "Cho một danh sách các số nguyên `nums`. Hãy tính và trả về tổng của tất cả các phần tử trong danh sách. Nếu danh sách rỗng, trả về `0`.\n\n### Ví dụ:\n- `nums = [1, 2, 3, 4, 5]` ➔ Kết quả: `15`\n- `nums = []` ➔ Kết quả: `0`\n\n### Ràng buộc:\n- `0 <= len(nums) <= 1000`\n- `-10^4 <= nums[i] <= 10^4`",
+  "difficulty": "easy",
+  "tags": [
+    "danh sách",
+    "toán tử"
+  ],
+  "params": [
+    {
+      "name": "nums",
+      "type": "list[int]"
+    }
+  ],
+  "returnType": "int",
+  "examples": [
+    {
+      "args": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "output": 15,
+      "explanation": "1 + 2 + 3 + 4 + 5 = 15"
+    },
+    {
+      "args": [
+        []
+      ],
+      "output": 0,
+      "explanation": "Danh sách rỗng có tổng bằng 0"
+    }
+  ],
+  "testCases": [
+    {
+      "args": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "output": 15
+    },
+    {
+      "args": [
+        []
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        [
+          10
+        ]
+      ],
+      "output": 10
+    },
+    {
+      "args": [
+        [
+          -1,
+          -2,
+          -3
+        ]
+      ],
+      "output": -6
+    },
+    {
+      "args": [
+        [
+          -5,
+          5
+        ]
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        [
+          100,
+          200,
+          300
+        ]
+      ],
+      "output": 600
+    },
+    {
+      "args": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        [
+          1,
+          -1,
+          2,
+          -2,
+          3,
+          -3
+        ]
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        [
+          42
+        ]
+      ],
+      "output": 42
+    },
+    {
+      "args": [
+        [
+          -99
+        ]
+      ],
+      "output": -99
+    },
+    {
+      "args": [
+        [
+          5,
+          10,
+          15,
+          20,
+          25
+        ]
+      ],
+      "output": 75
+    },
+    {
+      "args": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "output": 10
+    },
+    {
+      "args": [
+        [
+          -10,
+          20,
+          -30,
+          40
+        ]
+      ],
+      "output": 20
+    },
+    {
+      "args": [
+        [
+          12,
+          34,
+          56,
+          78
+        ]
+      ],
+      "output": 180
+    },
+    {
+      "args": [
+        [
+          999,
+          1,
+          -1000
+        ]
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        [
+          2,
+          4,
+          6,
+          8,
+          10
+        ]
+      ],
+      "output": 30
+    },
+    {
+      "args": [
+        [
+          3,
+          5,
+          7,
+          9
+        ]
+      ],
+      "output": 24
+    },
+    {
+      "args": [
+        [
+          1000,
+          -500,
+          250
+        ]
+      ],
+      "output": 750
+    },
+    {
+      "args": [
+        [
+          -7,
+          -8,
+          -9,
+          24
+        ]
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        [
+          100,
+          -100,
+          50,
+          -50,
+          0
+        ]
+      ],
+      "output": 0
+    }
+  ],
+  "compare": "exact"
+}

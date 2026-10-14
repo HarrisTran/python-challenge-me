@@ -1,0 +1,209 @@
+{
+  "id": "0003",
+  "slug": "tim-so-lon-nhat-trong-ba-so",
+  "title": "Tìm số lớn nhất trong ba số",
+  "description": "Cho ba số nguyên `a`, `b`, và `c`. Hãy tìm và trả về giá trị lớn nhất trong ba số đó.\n\n### Ví dụ:\n- `a = 1, b = 5, c = 3` ➔ Kết quả: `5`\n- `a = -10, b = -2, c = -5` ➔ Kết quả: `-2`\n\n### Ràng buộc:\n- `-10^9 <= a, b, c <= 10^9`",
+  "difficulty": "easy",
+  "tags": [
+    "điều kiện",
+    "cơ bản"
+  ],
+  "params": [
+    {
+      "name": "a",
+      "type": "int"
+    },
+    {
+      "name": "b",
+      "type": "int"
+    },
+    {
+      "name": "c",
+      "type": "int"
+    }
+  ],
+  "returnType": "int",
+  "examples": [
+    {
+      "args": [
+        1,
+        5,
+        3
+      ],
+      "output": 5,
+      "explanation": "5 lớn hơn 1 và 3"
+    },
+    {
+      "args": [
+        -10,
+        -2,
+        -5
+      ],
+      "output": -2,
+      "explanation": "-2 lớn nhất trong các số âm"
+    }
+  ],
+  "testCases": [
+    {
+      "args": [
+        1,
+        5,
+        3
+      ],
+      "output": 5
+    },
+    {
+      "args": [
+        -10,
+        -2,
+        -5
+      ],
+      "output": -2
+    },
+    {
+      "args": [
+        7,
+        7,
+        7
+      ],
+      "output": 7
+    },
+    {
+      "args": [
+        0,
+        0,
+        1
+      ],
+      "output": 1
+    },
+    {
+      "args": [
+        -1,
+        0,
+        1
+      ],
+      "output": 1
+    },
+    {
+      "args": [
+        100,
+        50,
+        20
+      ],
+      "output": 100
+    },
+    {
+      "args": [
+        10,
+        99,
+        50
+      ],
+      "output": 99
+    },
+    {
+      "args": [
+        5,
+        10,
+        80
+      ],
+      "output": 80
+    },
+    {
+      "args": [
+        -5,
+        -10,
+        -20
+      ],
+      "output": -5
+    },
+    {
+      "args": [
+        0,
+        -5,
+        -1
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        42,
+        42,
+        10
+      ],
+      "output": 42
+    },
+    {
+      "args": [
+        15,
+        30,
+        30
+      ],
+      "output": 30
+    },
+    {
+      "args": [
+        50,
+        20,
+        50
+      ],
+      "output": 50
+    },
+    {
+      "args": [
+        1000000,
+        999999,
+        500000
+      ],
+      "output": 1000000
+    },
+    {
+      "args": [
+        -999999,
+        -1000000,
+        0
+      ],
+      "output": 0
+    },
+    {
+      "args": [
+        12,
+        18,
+        14
+      ],
+      "output": 18
+    },
+    {
+      "args": [
+        9,
+        3,
+        6
+      ],
+      "output": 9
+    },
+    {
+      "args": [
+        -100,
+        -200,
+        -50
+      ],
+      "output": -50
+    },
+    {
+      "args": [
+        8,
+        8,
+        2
+      ],
+      "output": 8
+    },
+    {
+      "args": [
+        3,
+        9,
+        9
+      ],
+      "output": 9
+    }
+  ],
+  "compare": "exact"
+}

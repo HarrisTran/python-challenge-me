@@ -1,0 +1,157 @@
+{
+  "id": "0002",
+  "slug": "kiem-tra-so-chan-le",
+  "title": "Kiểm tra số chẵn lẻ",
+  "description": "Cho một số nguyên `n`. Hãy kiểm tra xem `n` có phải là số chẵn hay không. Trả về `True` nếu là số chẵn, ngược lại trả về `False`.\n\n### Ví dụ:\n- `n = 4` ➔ Kết quả: `True`\n- `n = 7` ➔ Kết quả: `False`\n\n### Ràng buộc:\n- `-10^9 <= n <= 10^9`",
+  "difficulty": "easy",
+  "tags": [
+    "điều kiện",
+    "cơ bản"
+  ],
+  "params": [
+    {
+      "name": "n",
+      "type": "int"
+    }
+  ],
+  "returnType": "bool",
+  "examples": [
+    {
+      "args": [
+        4
+      ],
+      "output": true,
+      "explanation": "4 chia hết cho 2 nên là số chẵn"
+    },
+    {
+      "args": [
+        7
+      ],
+      "output": false,
+      "explanation": "7 chia 2 dư 1 nên là số lẻ"
+    }
+  ],
+  "testCases": [
+    {
+      "args": [
+        4
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        7
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        0
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        -2
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        -3
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        100
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        101
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        -1000
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        -999
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        2
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        1
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        -1
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        888888
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        777777
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        2024
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        2025
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        -44
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        99
+      ],
+      "output": false
+    },
+    {
+      "args": [
+        10
+      ],
+      "output": true
+    },
+    {
+      "args": [
+        13
+      ],
+      "output": false
+    }
+  ],
+  "compare": "exact"
+}

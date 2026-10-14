@@ -1,0 +1,310 @@
+{
+  "id": "0009",
+  "slug": "loc-cac-so-chan",
+  "title": "Lọc các số chẵn trong danh sách",
+  "description": "Cho một danh sách các số nguyên `nums`. Hãy lọc và trả về một danh sách mới chỉ chứa các số chẵn trong `nums`, giữ nguyên thứ tự ban đầu.\n\n### Ví dụ:\n- `nums = [1, 2, 3, 4, 5, 6]` ➔ Kết quả: `[2, 4, 6]`\n- `nums = [1, 3, 5]` ➔ Kết quả: `[]`\n\n### Ràng buộc:\n- `0 <= len(nums) <= 1000`\n- `-10^5 <= nums[i] <= 10^5`",
+  "difficulty": "easy",
+  "tags": [
+    "danh sách",
+    "điều kiện"
+  ],
+  "params": [
+    {
+      "name": "nums",
+      "type": "list[int]"
+    }
+  ],
+  "returnType": "list[int]",
+  "examples": [
+    {
+      "args": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "output": [
+        2,
+        4,
+        6
+      ],
+      "explanation": "Các số chẵn là 2, 4, 6"
+    },
+    {
+      "args": [
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "output": [],
+      "explanation": "Không có số chẵn nào"
+    }
+  ],
+  "testCases": [
+    {
+      "args": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "output": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "args": [
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "output": []
+    },
+    {
+      "args": [
+        []
+      ],
+      "output": []
+    },
+    {
+      "args": [
+        [
+          2,
+          4,
+          6
+        ]
+      ],
+      "output": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "args": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "output": [
+        0,
+        2
+      ]
+    },
+    {
+      "args": [
+        [
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      ],
+      "output": [
+        -4,
+        -2,
+        0
+      ]
+    },
+    {
+      "args": [
+        [
+          10,
+          21,
+          32,
+          43,
+          54
+        ]
+      ],
+      "output": [
+        10,
+        32,
+        54
+      ]
+    },
+    {
+      "args": [
+        [
+          7,
+          9,
+          11,
+          13
+        ]
+      ],
+      "output": []
+    },
+    {
+      "args": [
+        [
+          8,
+          8,
+          8
+        ]
+      ],
+      "output": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "args": [
+        [
+          100,
+          101,
+          102
+        ]
+      ],
+      "output": [
+        100,
+        102
+      ]
+    },
+    {
+      "args": [
+        [
+          -2,
+          -4,
+          -6
+        ]
+      ],
+      "output": [
+        -2,
+        -4,
+        -6
+      ]
+    },
+    {
+      "args": [
+        [
+          15,
+          20,
+          25,
+          30
+        ]
+      ],
+      "output": [
+        20,
+        30
+      ]
+    },
+    {
+      "args": [
+        [
+          1
+        ]
+      ],
+      "output": []
+    },
+    {
+      "args": [
+        [
+          2
+        ]
+      ],
+      "output": [
+        2
+      ]
+    },
+    {
+      "args": [
+        [
+          3,
+          4
+        ]
+      ],
+      "output": [
+        4
+      ]
+    },
+    {
+      "args": [
+        [
+          0
+        ]
+      ],
+      "output": [
+        0
+      ]
+    },
+    {
+      "args": [
+        [
+          11,
+          22,
+          33,
+          44,
+          55,
+          66
+        ]
+      ],
+      "output": [
+        22,
+        44,
+        66
+      ]
+    },
+    {
+      "args": [
+        [
+          9,
+          8,
+          7,
+          6,
+          5,
+          4
+        ]
+      ],
+      "output": [
+        8,
+        6,
+        4
+      ]
+    },
+    {
+      "args": [
+        [
+          50,
+          51,
+          52,
+          53
+        ]
+      ],
+      "output": [
+        50,
+        52
+      ]
+    },
+    {
+      "args": [
+        [
+          1000,
+          1001,
+          1002
+        ]
+      ],
+      "output": [
+        1000,
+        1002
+      ]
+    }
+  ],
+  "compare": "exact"
+}
